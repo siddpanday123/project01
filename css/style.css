@@ -1,0 +1,348 @@
+/* fonts */
+
+@font-face {
+    font-family: Anton-Regular;
+    src: url(../fonts/Anton-Regular.ttf);
+}
+*{
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5{
+    font-family: Anton-Regular;
+}
+/* header */
+/* body */
+body{
+    margin: 0px;
+}
+.uni-padding{
+    padding: 0% 7%;
+}
+
+/* topbar" */
+
+#topbar{
+    background-color: rgb(112, 107, 107);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: auto;
+}
+.tollfree-no{
+    float: left;
+    color: rgba(250, 248, 248, 0.795);
+    margin: 0;
+    margin-top: 5px;
+}
+
+/* icone-bar */
+
+.icone-bar{
+    float: right;
+}
+.fab{
+    background-color: rgba(250, 248, 248, 0.795);
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    padding: 7px 10px;
+    color: rgb(112, 107, 107);
+}
+.fa-twitter{
+    padding: 7px;
+    color: rgb(112, 107, 107);
+}
+.fa-whatsapp{
+    padding: 7px;
+    color: rgb(112, 107, 107);
+}
+.fa-linkedin-in{
+    padding: 7px;
+    color: rgb(112, 107, 107);
+    /* logo */
+}
+#logo-box{
+    background-color: white;
+}
+.logo-design{
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+/* navigation */
+#nav-bar{
+    background-color: rgba(219, 19, 19, 0.89);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-list{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    display: inline-block;
+}
+.nav-list li{
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav-list li a{
+    text-decoration: none;
+    color: rgba(250, 248, 248, 0.795);
+    padding-right: 40px;
+    font-size: 18px;
+}
+
+/* footer */
+
+#imp-link{
+    background-color: rgb(112, 107, 107);
+    color: rgba(250, 248, 248, 0.795);
+    overflow: auto;
+}
+.div33{
+    float: left;
+    width: 33.33%;
+    padding-right: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    box-sizing: border-box;
+}
+.div33 h2{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px;
+}
+.link-list{
+    list-style-type: none;
+    padding: 0px;
+}
+.link-list li a{
+    text-decoration: none;
+    color: rgba(250, 248, 248, 0.795);
+}
+#footer-menu-list{
+    padding-left: 80px;
+}
+/* copyright */
+#copy-right{
+    background-color: rgb(26, 24, 24);
+    color: rgba(250, 248, 248, 0.795);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+/* home section */
+#background-photo{
+    background-image: url("../images/backgroundimg.jpg");
+    background-position: center;
+    background-size: cover;
+    color: rgba(250, 248, 248, 0.795);
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+#background-photo h1{
+    text-align: center;
+    font-size: 50px;
+}
+/* why-us section */
+
+#why-us{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+.why33{
+    width: 33.33%;
+    float: left;
+}
+.why33 h2{
+    color: red;
+    text-align: center;
+}
+.why33 img{
+    padding-left: 120px;
+}
+.why-us-heading h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-weight: 500;
+}
+/* contact-us-box */
+#contact-us-box{
+    background-color: rgba(219, 19, 19, 0.89);
+    overflow: auto;
+    color: rgba(250, 248, 248, 0.795);
+}
+.cotext{
+    width: 70%;
+    float: left;
+}
+.contact-us{
+    width: 30%;
+    float: left;
+}
+.contact-us a{
+    text-decoration: none;
+    color: rgba(219, 19, 19, 0.89);
+    display: inline-block;
+    margin: 60px 100px;
+    background-color: rgba(250, 248, 248, 0.795);
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/* blog-box */
+
+#blog-box{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:inline-block;
+    overflow:auto;
+}
+.blog33{
+    width: 33.33%;
+    float: left;
+}
+.blog33 h2{
+    color: red;
+    text-align: center;
+}
+.blog33 img{
+    padding-left: 120px;
+}
+.blog-box-heading h1{
+    text-align: center;
+    color: red;
+    font-size: 50px;
+    font-weight: 500;
+}
+#mobile-bar,#mobile-cross{
+    display: none;
+}
+/* responsive website  for-i-pad-pro*/
+
+@media only screen and (max-width: 1024px){
+    .why33 img, .blog33 img{
+        padding-left: 26px;
+    }
+    .why33,.blog33{
+        padding-right: 15px;
+        box-sizing: border-box;
+    }
+    .why33 h2,.blog33 h2{
+        margin-right: 70px;
+    }
+    .why-us-heading h1,.blog-box-heading h1{
+        padding-right: 86px;
+    }
+
+}
+
+/* risponsive website for i-pad */
+
+@media only screen and (max-width: 768px){
+    .nav-list li a {
+        padding-right: 25px;
+    }
+    .why33 img, .blog33 img {
+        padding-left: 0px;
+    }
+    #footer-menu-list {
+        padding-left: 22px;
+    }
+
+}
+
+/* risponsive website for mobile */
+
+@media only screen and (max-width: 500px){
+    #nav-bar {
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        width: 280px;
+        box-sizing: border-box;
+    }
+    .nav-list li {
+    float: none;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(29, 28, 28, 0.959);
+    }
+    .nav-list{
+        width: 100%;
+        
+    }
+    .nav-list li a{
+        font-size: 25px;
+    }
+    #mobile-cross{
+        text-align: right;
+    }
+    .fa-times-circle{
+        font-size: 30px;
+    }
+    #nav-bar{
+        left: -280px;
+    }
+    #mobile-bar{
+        padding: 20px 30px;
+        font-size: 22px;
+        background-color: rgba(219, 19, 19, 0.89);
+        color: white;
+    }
+    #mobile-bar,#mobile-cross{
+        display: block;
+    }
+    .logo-design {
+        text-align:center;
+    }
+    .why33,.blog33,.div33,.contact-us,.cotext{
+        width: 100%;
+    }
+    .why33 img, .blog33 img {
+        padding-left: 37px;
+    }
+    .uni-padding {
+        padding: 0% 10%;
+    }
+    #footer-menu-list {
+        padding-left: 0px;
+    }
+    .contact-us a {
+        margin: 15px 90px;
+        padding: 13px 4px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
